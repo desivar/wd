@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="final project, this is the contact foorm to e'mail using JavaScript">
+    <meta name="author" content= "Desire Vargas">
+    <link href="styles/contact.css" rel="stylesheet">
+    <script src="scripts/contact.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <title>Final Project </title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="links">
+            <ul>
+                <li><a href="final-project.html">Home</a></li>
+              <li><a href="hobbies.html">Hobbies</a></li>
+              <li> <a href="#"class="active">Contact</a></li>
+            </ul>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+          </div>
+    <div class="container1">
+        <form onsubmit="sendEmail();reset(); return fl">
+<h3>Get in Touch</h3>
+<input type="text" id="name"placeholder="Your Name" required>
+<input type="text" id="email"placeholder="Email id" required>
+<textarea id="message" rows="4"></textarea>
+<button type="submit">Send</button>
+</form>
+    </div>
+    
+    <footer>
+        <p>&COPY;<span id="currentyear"></span>🌸Desire Vargas🌸Honduras</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
