@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  
+}
+
+
+body{
+  text-align: center;
+  font-family:cursive;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color:#c2b4df;
+
+  ul
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+}
+.nav
+{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+  
+  
+}      
+h1{
+  display: block;
+  background: #7442bb;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border:7px solid white;
+  font-size: 50px;
+  color:white;
+
+}
+
+
+/* recordar orden*/
+.box{
+  background-image: url(images/background.jpg);
+  padding: 100px 75px;
+  margin: 75px;
+  background-position: center;
+  border:4px #527375;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color:whitesmoke;
+  background-image: linear-gradient(45deg,#4442bb,#3769d5,#ab37d5);
+  font-size: 14;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border:4px solid whitesmoke;
+}
+
+
+.links ul
+{
+  display: flex;
+}
+.links a
+  {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    margin-right: 0.6rem;
+    color: #ffffff;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 1.5rem;
+    transition: 0.3s;
+  }
+  .links a.active,
+  .links a:hover
+  {
+    color: #0b0235;
+    background: #ffffff;
+  }
+  .hamburger-menu
+  {
+    width: 2.7rem;
+    height: 3rem;
+    z-index: 100;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .hamburger-menu .bar 
+  {
+    content: '';
+    position: absolute;
+    width: 2.1rem;
+    height: 3px;
+    border-radius: 3px;
+    background:blueviolet;
+  }
+  .bar::before
+  {
+    transform: translateY(-9px);
+  }
+  .bar::after
+  {
+    transform: translateY(9px);
+  }
+
+/*  seccion de imagenes tipo enmarcadas*/
+
+.container{
+  display: flex;
+  box-sizing:border-box;
+  padding: 0;
+  margin:0;
+  justify-content: center;
+  flex-wrap: wrap;  
+
+}
+
+
+.card{
+
+  background: whitesmoke;
+  width:400px;
+  height:500px;
+  margin:16px;
+  border-radius: 15px;
+  border:2px solid #4442bb;
+  
+}
+
+.card-img{
+  
+  height:170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px;
+  border: 2px solid white;
+  box-shadow: #404392;
+}
+
+.card-1{
+  background-image: url(../images/pearl.jpg);
+  
+}
+
+.card-2{
+  background-image: url(../images/heidi.jpg);
+}
+
+.card-3{
+  background-image: url(../images/pathway.jpg);
+}
+.card h2{
+padding:4px;
+}
+.card p{
+  padding:5px;
+}
+
+.card a{
+  background-color:rgb(25, 32, 132);
+  color:antiquewhite;
+  padding:15px 20px;
+  display: block;
+  text-align: center;
+  margin:20px 50px;
+  text-decoration: none;
+}
+.card:hover{
+  background-color: #3769d5;
+  color:white;
+  cursor:pointer;
+  transform:scale(1.04);
+  transition:all 2s ease;
+}
+.container-2{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer{
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  text-align: left;
+  background-color: pink;
+}
+.button {
+  /* Alinear buttoms*/
+  padding-left: 90px; 
+}
+
+button {
+  
+  margin-left: .5em;
+}
